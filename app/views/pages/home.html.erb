@@ -1,0 +1,574 @@
+<!-- Hero Section with Optimal Image Setup -->
+<section class="section relative min-h-screen flex items-center">
+  <!-- Background image -->
+  <div class="absolute inset-0 z-0 pointer-events-none">
+    <img src="<%= vite_asset_path('images/aiesec-image-2.jpg') %>" alt="AIESEC Global Experience" class="w-full h-full object-cover opacity-50">
+  </div>
+  
+  <!-- Gradient overlay with pointer-events-none to allow clicking through -->
+  <div class="absolute inset-0 bg-gradient-to-r from-aiesec-blue to-aiesec-green opacity-70 z-10 pointer-events-none"></div>
+  
+  <!-- Content with improved text visibility -->
+  <div class="section-content text-center relative z-20">
+    <h1 class="text-5xl md:text-6xl font-bold mb-6 text-white text-shadow">Discover Your Global Potential</h1>
+    <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-white text-shadow-sm">AIESEC Exchanges offer life-changing opportunities to teach, intern, and volunteer around the world.</p>
+    <div class="flex flex-col md:flex-row gap-4 justify-center">
+      <!-- Add bg-opacity-strong to ensure buttons are fully visible -->
+      <a href="#opportunities" class="px-8 py-3 bg-white bg-opacity-strong text-aiesec-blue font-semibold rounded-full hover:bg-gray-100 transition transform hover:scale-105">Explore Programs</a>
+      <a href="#sign-up" class="px-8 py-3 bg-aiesec-yellow bg-opacity-strong text-gray-800 font-semibold rounded-full hover:bg-yellow-400 transition transform hover:scale-105">Sign Up Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- Impact Section with Background Image -->
+<section id="impact" class="section relative">
+  <!-- Background image with low opacity -->
+  <div class="absolute inset-0 z-0 pointer-events-none">
+    <img src="<%= vite_asset_path("images/aiesec-image-10.jpg") %>" alt="AIESEC Global Impact" class="w-full h-full object-cover opacity-15">
+  </div>
+  
+  <!-- Content -->
+  <div class="section-content relative z-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-4xl font-bold mb-6">Make a Global Impact</h2>
+        <p class="text-lg text-gray-700 mb-6">Through AIESEC exchanges, you don't just develop yourself - you contribute to positive change around the world.</p>
+        
+        <div class="space-y-6">
+          <div class="bg-white bg-opacity-90 p-4 rounded-lg shadow-sm">
+            <h3 class="text-xl font-bold mb-2 text-aiesec-blue">Supporting Education</h3>
+            <p class="text-gray-600">As a Global Teacher, you help address educational inequalities by providing quality education in underserved communities.</p>
+          </div>
+          
+          <div class="bg-white bg-opacity-90 p-4 rounded-lg shadow-sm">
+            <h3 class="text-xl font-bold mb-2 text-aiesec-green">Driving Innovation</h3>
+            <p class="text-gray-600">Through Global Talent internships, you bring fresh perspectives to organizations and help them solve challenges in innovative ways.</p>
+          </div>
+          
+          <div class="bg-white bg-opacity-90 p-4 rounded-lg shadow-sm">
+            <h3 class="text-xl font-bold mb-2 text-aiesec-red">Community Development</h3>
+            <p class="text-gray-600">As a Global Volunteer, you directly contribute to the UN Sustainable Development Goals through meaningful projects.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div>
+        <div class="grid grid-cols-2 gap-6">
+          <div class="bg-white bg-opacity-90 p-6 rounded-xl text-center shadow-sm">
+            <div class="text-5xl font-bold text-aiesec-blue mb-2">126</div>
+            <p class="text-gray-600">Countries & Territories</p>
+          </div>
+          
+          <div class="bg-white bg-opacity-90 p-6 rounded-xl text-center shadow-sm">
+            <div class="text-5xl font-bold text-aiesec-green mb-2">70K+</div>
+            <p class="text-gray-600">Experiences Per Year</p>
+          </div>
+          
+          <div class="bg-white bg-opacity-90 p-6 rounded-xl text-center shadow-sm">
+            <div class="text-5xl font-bold text-aiesec-yellow mb-2">40K+</div>
+            <p class="text-gray-600">AIESEC Members</p>
+          </div>
+          
+          <div class="bg-white bg-opacity-90 p-6 rounded-xl text-center shadow-sm">
+            <div class="text-5xl font-bold text-aiesec-red mb-2">1M+</div>
+            <p class="text-gray-600">Alumni Network</p>
+          </div>
+        </div>
+        
+        <div class="mt-8 p-6 bg-white bg-opacity-90 rounded-xl border-l-4 border-aiesec-blue shadow-sm">
+          <p class="italic">"AIESEC exchanges directly contribute to 10 of the 17 UN Sustainable Development Goals, making a real difference in communities around the world."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Opportunities Section with More Visible Images -->
+<section id="opportunities" class="section bg-gray-100">
+  <div class="section-content">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">Unlock Global Opportunities</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">AIESEC Exchanges open doors to a world of possibilities that transform your future.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Global Teacher Card -->
+      <div class="rounded-xl shadow-md transform hover:-translate-y-2 transition duration-300 relative overflow-hidden h-96">
+        <!-- Background image with higher opacity -->
+        <div class="absolute inset-0 z-0 pointer-events-none">
+          <img src="<%= vite_asset_path('images/aiesec-image-16.jpg') %>" alt="Global Teacher" class="w-full h-full object-cover opacity-80">
+        </div>
+        
+        <!-- Dark overlay to ensure text is readable -->
+        <div class="absolute inset-0 bg-black bg-opacity-40 z-5 pointer-events-none"></div>
+        
+        <!-- Card content -->
+        <div class="relative z-10 p-6 flex flex-col justify-end h-full">
+          <div class="w-16 h-16 bg-aiesec-blue text-white rounded-full flex items-center justify-center mb-4 mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <div class="bg-white bg-opacity-90 p-4 rounded-lg">
+            <h3 class="text-2xl font-bold text-center mb-2 text-aiesec-blue">Global Teacher</h3>
+            <p class="text-gray-700 text-center mb-4">Get the chance to teach in local and international communities, sharing knowledge and making a difference.</p>
+            <div class="text-center">
+              <a href="#" class="px-4 py-2 bg-aiesec-blue text-white rounded-full inline-block hover:bg-blue-600 transition">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Global Talent Card -->
+      <div class="rounded-xl shadow-md transform hover:-translate-y-2 transition duration-300 relative overflow-hidden h-96">
+        <!-- Background image with higher opacity -->
+        <div class="absolute inset-0 z-0 pointer-events-none">
+          <img src="<%= vite_asset_path('images/aiesec-image-4.jpg') %>" alt="Global Talent" class="w-full h-full object-cover opacity-80">
+        </div>
+        
+        <!-- Dark overlay to ensure text is readable -->
+        <div class="absolute inset-0 bg-black bg-opacity-40 z-5 pointer-events-none"></div>
+        
+        <!-- Card content -->
+        <div class="relative z-10 p-6 flex flex-col justify-end h-full">
+          <div class="w-16 h-16 bg-aiesec-green text-white rounded-full flex items-center justify-center mb-4 mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <div class="bg-white bg-opacity-90 p-4 rounded-lg">
+            <h3 class="text-2xl font-bold text-center mb-2 text-aiesec-green">Global Talent</h3>
+            <p class="text-gray-700 text-center mb-4">Showcase your skills in global and international communities through professional internships.</p>
+            <div class="text-center">
+              <a href="#" class="px-4 py-2 bg-aiesec-green text-white rounded-full inline-block hover:bg-green-600 transition">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Global Volunteer Card -->
+      <div class="rounded-xl shadow-md transform hover:-translate-y-2 transition duration-300 relative overflow-hidden h-96">
+        <!-- Background image with higher opacity -->
+        <div class="absolute inset-0 z-0 pointer-events-none">
+          <img src="<%= vite_asset_path('images/aiesec-image-6.jpg') %>" alt="Global Volunteer" class="w-full h-full object-cover opacity-80">
+        </div>
+        
+        <!-- Dark overlay to ensure text is readable -->
+        <div class="absolute inset-0 bg-black bg-opacity-40 z-5 pointer-events-none"></div>
+        
+        <!-- Card content -->
+        <div class="relative z-10 p-6 flex flex-col justify-end h-full">
+          <div class="w-16 h-16 bg-aiesec-red text-white rounded-full flex items-center justify-center mb-4 mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          </div>
+          <div class="bg-white bg-opacity-90 p-4 rounded-lg">
+            <h3 class="text-2xl font-bold text-center mb-2 text-aiesec-red">Global Volunteer</h3>
+            <p class="text-gray-700 text-center mb-4">Give value by volunteering and passing on knowledge of a skill or topic to communities in need.</p>
+            <div class="text-center">
+              <a href="#" class="px-4 py-2 bg-aiesec-red text-white rounded-full inline-block hover:bg-red-600 transition">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Join Section with Counter Animation -->
+<section id="why-join" class="section relative py-20 bg-gray-800 text-white">
+  <!-- Background image with low opacity -->
+  <div class="absolute inset-0 z-0 pointer-events-none">
+    <img src="<%= vite_asset_path('images/aiesec-image-17.jpg') %>" alt="AIESEC Global Community" class="w-full h-full object-cover opacity-30">
+  </div>
+  
+  <!-- Gradient overlay -->
+  <div class="absolute inset-0 bg-gradient-to-r from-aiesec-blue to-aiesec-green opacity-60 z-10 pointer-events-none"></div>
+  
+  <!-- Content -->
+  <div class="section-content relative z-20">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold mb-2 text-white text-shadow">Why Join AIESEC Exchanges?</h2>
+      <div class="h-1 w-24 bg-white mx-auto mb-8"></div>
+
+      <!-- Main counter -->
+      <div class="text-center mb-16">
+      <div class="text-6xl md:text-7xl font-bold mb-4 text-white text-shadow counter" data-target="70000">0</div>
+      <p class="text-2xl text-white text-shadow-sm"> Over 70,000+ Experiences delivered yearly</p>
+      <p class="text-xl max-w-3xl mx-auto text-white text-shadow-sm">Experience growth that goes beyond the classroom and prepares you for global leadership.</p>
+      </div>
+    </div>
+    
+    
+    <!-- Three cards in gray boxes like the example -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-700 bg-opacity-80 p-8 rounded-xl text-center">
+        <div class="w-16 h-16 bg-white rounded-full mx-auto flex items-center justify-center mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-aiesec-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          </svg>
+        </div>
+        <div class="text-4xl font-bold mb-2 counter" data-target="95">0</div>
+        <h3 class="text-xl mb-4">%</h3>
+        <p class="text-gray-300">experienced<br>personal fulfillment</p>
+      </div>
+      
+      <div class="bg-gray-700 bg-opacity-80 p-8 rounded-xl text-center">
+        <div class="w-16 h-16 bg-white rounded-full mx-auto flex items-center justify-center mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-aiesec-green" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+          </svg>
+        </div>
+        <div class="text-4xl font-bold mb-2 counter" data-target="85">0</div>
+        <h3 class="text-xl mb-4">%</h3>
+        <p class="text-gray-300">rated their experience<br>8 or above out of 10</p>
+      </div>
+      
+      <div class="bg-gray-700 bg-opacity-80 p-8 rounded-xl text-center">
+        <div class="w-16 h-16 bg-white rounded-full mx-auto flex items-center justify-center mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-aiesec-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+          </svg>
+        </div>
+        <div class="text-4xl font-bold mb-2 counter" data-target="91">0</div>
+        <h3 class="text-xl mb-4">%</h3>
+        <p class="text-gray-300">would recommend<br>AIESEC exchanges</p>
+      </div>
+    </div>
+    
+    <div class="text-center mt-16">
+      <a href="#sign-up" class="inline-block px-8 py-4 bg-white text-aiesec-blue font-semibold rounded-full hover:bg-gray-100 transition transform hover:scale-105 shadow-lg">Start Your Journey</a>
+    </div>
+  </div>
+  
+  <!-- JavaScript for counter animation -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const counters = document.querySelectorAll('.counter');
+      const speed = 200; // The lower the value, the faster the animation
+      
+      const animateCounter = (counter) => {
+        const target = +counter.getAttribute('data-target');
+        let count = 0;
+        
+        // Calculate step size based on target value to ensure consistent animation duration
+        const step = target / speed;
+        
+        const updateCount = () => {
+          if (count < target) {
+            count += step;
+            counter.innerText = Math.floor(count).toLocaleString();
+            setTimeout(updateCount, 1);
+          } else {
+            counter.innerText = target.toLocaleString();
+          }
+        };
+        
+        updateCount();
+      };
+      
+      // Start animations when counters come into view
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.5 });
+      
+      counters.forEach(counter => {
+        observer.observe(counter);
+      });
+    });
+  </script>
+</section>
+
+<!-- Success Story Section with Enhanced Profile Photos -->
+<section class="section bg-gray-100">
+  <div class="section-content">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">Success Stories</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Hear from students who transformed their lives through AIESEC exchanges.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- First testimonial -->
+      <div class="bg-gray-50 p-8 rounded-xl relative">
+        <div class="absolute -top-5 -left-5 text-6xl text-aiesec-blue opacity-30">"</div>
+        
+        <div class="flex flex-col items-center mb-6">
+          <!-- Larger profile image -->
+          <div class="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-md mb-4">
+            <img src="<%= vite_asset_path('images/aiesec-image-11.jpg') %>" alt="Adebayo Oluwaseun" class="w-full h-full object-cover">
+          </div>
+          <div class="text-center">
+            <h4 class="font-bold text-xl">Adebayo Oluwaseun</h4>
+            <p class="text-aiesec-blue">Global Teacher, Vietnam 2023</p>
+          </div>
+        </div>
+        
+        <p class="text-lg relative z-10 text-gray-700 italic bg-white bg-opacity-70 p-4 rounded-lg">"My experience teaching English in Vietnam changed my entire perspective on education. I developed confidence in public speaking and learned how to connect with students from different backgrounds. This experience was the highlight of my university years."</p>
+      </div>
+      
+      <!-- Second testimonial -->
+      <div class="bg-gray-50 p-8 rounded-xl relative">
+        <div class="absolute -top-5 -left-5 text-6xl text-aiesec-blue opacity-30">"</div>
+        
+        <div class="flex flex-col items-center mb-6">
+          <!-- Larger profile image -->
+          <div class="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-md mb-4">
+            <img src="<%= vite_asset_path('images/aiesec-image-12.jpg') %>" alt="Chioma Nwachukwu" class="w-full h-full object-cover">
+          </div>
+          <div class="text-center">
+            <h4 class="font-bold text-xl">Chioma Nwachukwu</h4>
+            <p class="text-aiesec-green">Global Talent, Malaysia 2022</p>
+          </div>
+        </div>
+        
+        <p class="text-lg relative z-10 text-gray-700 italic bg-white bg-opacity-70 p-4 rounded-lg">"My internship with a tech startup in Malaysia opened doors I never knew existed. I gained practical skills that complemented my degree, built an international network, and secured a job offer before returning home. AIESEC truly launched my career."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sign Up Section with Background Image -->
+<section id="sign-up" class="section relative">
+  <!-- Background image with low opacity -->
+  <div class="absolute inset-0 z-0 pointer-events-none">
+    <img src="<%= vite_asset_path('images/aiesec-image-5.jpg') %>" alt="AIESEC Global Journey" class="w-full h-full object-cover opacity-15">
+  </div>
+  
+  <!-- Content -->
+  <div class="section-content relative z-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-4xl font-bold mb-6">Ready to Start Your Global Journey?</h2>
+        <p class="text-lg text-gray-700 mb-6">Join thousands of students who have transformed their lives through AIESEC exchanges. Take the first step towards your global experience today.</p>
+        
+        <div class="space-y-4 mb-8 bg-white bg-opacity-80 p-6 rounded-xl shadow-sm">
+          <div class="flex items-start">
+            <div class="flex-shrink-0 w-6 h-6 bg-aiesec-blue text-white rounded-full flex items-center justify-center mt-1 mr-3">
+              <span class="font-bold text-xs">1</span>
+            </div>
+            <p class="text-gray-600">Sign up on our platform and create your profile</p>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="flex-shrink-0 w-6 h-6 bg-aiesec-blue text-white rounded-full flex items-center justify-center mt-1 mr-3">
+              <span class="font-bold text-xs">2</span>
+            </div>
+            <p class="text-gray-600">Browse opportunities that match your interests</p>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="flex-shrink-0 w-6 h-6 bg-aiesec-blue text-white rounded-full flex items-center justify-center mt-1 mr-3">
+              <span class="font-bold text-xs">3</span>
+            </div>
+            <p class="text-gray-600">Apply for your preferred program and location</p>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="flex-shrink-0 w-6 h-6 bg-aiesec-blue text-white rounded-full flex items-center justify-center mt-1 mr-3">
+              <span class="font-bold text-xs">4</span>
+            </div>
+            <p class="text-gray-600">Get matched with the perfect opportunity</p>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="flex-shrink-0 w-6 h-6 bg-aiesec-blue text-white rounded-full flex items-center justify-center mt-1 mr-3">
+              <span class="font-bold text-xs">5</span>
+            </div>
+            <p class="text-gray-600">Prepare for your exchange with our support</p>
+          </div>
+        </div>
+        
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#sign-up" class="px-8 py-3 bg-aiesec-blue text-white font-semibold rounded-full hover:bg-blue-600 transition text-center shadow-md">Sign Up Now</a>
+          <a href="#footer" class="px-8 py-3 border border-aiesec-blue text-aiesec-blue font-semibold rounded-full hover:bg-blue-50 transition text-center bg-white bg-opacity-90 shadow-md">Contact Us</a>
+        </div>
+      </div>
+      
+      <div class="bg-white bg-opacity-90 p-8 rounded-xl shadow-md">
+        <h3 class="text-2xl font-bold mb-6">Join Our Community</h3>
+        <form action="#" method="POST" class="space-y-6">
+          <div>
+            <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-aiesec-blue">
+          </div>
+          
+          <div>
+            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-aiesec-blue">
+          </div>
+          
+          <div>
+            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-aiesec-blue">
+          </div>
+          
+          <div>
+            <label for="university" class="block text-gray-700 font-medium mb-2">University/Institution</label>
+            <input type="text" id="university" name="university" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-aiesec-blue">
+          </div>
+          
+          <div>
+            <label for="program" class="block text-gray-700 font-medium mb-2">Program of Interest</label>
+            <select id="program" name="program" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-aiesec-blue">
+              <option value="">Select a program</option>
+              <option value="global_teacher">Global Teacher</option>
+              <option value="global_talent">Global Talent</option>
+              <option value="global_volunteer">Global Volunteer</option>
+            </select>
+          </div>
+          
+          <div>
+            <button type="submit" class="w-full px-8 py-3 bg-aiesec-blue text-white font-semibold rounded-full hover:bg-blue-600 transition shadow-md">Register Interest</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About AIESEC Section with Background Image -->
+<section id="about" class="section relative">
+  <!-- Background image with low opacity -->
+  <div class="absolute inset-0 z-0 pointer-events-none">
+    <img src="<%= vite_asset_path('images/aiesec-image-19.jpg') %>" alt="AIESEC Global Network" class="w-full h-full object-cover opacity-15">
+  </div>
+  
+  <!-- Content -->
+  <div class="section-content relative z-10">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">About AIESEC</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">We're the world's largest youth-run organization developing the next generation of leaders.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white bg-opacity-90 p-6 rounded-xl shadow-sm">
+        <div class="h-1 w-24 bg-aiesec-blue mb-6"></div>
+        <h3 class="text-2xl font-bold mb-4">Our Mission</h3>
+        <p class="text-gray-600 mb-4">AIESEC strives to achieve peace and fulfillment of humankind's potential by activating leadership qualities in youth through learning from practical experiences in challenging environments.</p>
+      </div>
+      
+      <div class="bg-white bg-opacity-90 p-6 rounded-xl shadow-sm">
+        <div class="h-1 w-24 bg-aiesec-green mb-6"></div>
+        <h3 class="text-2xl font-bold mb-4">Our Vision</h3>
+        <p class="text-gray-600 mb-4">Peace and fulfillment of humankind's potential. We believe that leadership is the fundamental solution for the world's issues. By developing leadership in young people, we can achieve peace.</p>
+      </div>
+      
+      <div class="bg-white bg-opacity-90 p-6 rounded-xl shadow-sm">
+        <div class="h-1 w-24 bg-aiesec-red mb-6"></div>
+        <h3 class="text-2xl font-bold mb-4">Our Values</h3>
+        <p class="text-gray-600 mb-4">We live by six core values: Striving for Excellence, Demonstrating Integrity, Activating Leadership, Acting Sustainably, Living Diversity, and Enjoying Participation.</p>
+      </div>
+    </div>
+    
+    <div class="mt-12 bg-white bg-opacity-90 p-8 rounded-xl shadow-md">
+      <h3 class="text-2xl font-bold mb-6 text-center">The AIESEC Way</h3>
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-aiesec-blue text-white rounded-full flex items-center justify-center mr-3">
+              <span class="font-bold">1</span>
+            </div>
+            <h4 class="font-bold text-lg">Youth Leadership</h4>
+          </div>
+          <p class="text-gray-600 pl-12">We develop leadership through practical experiences in challenging environments.</p>
+        </div>
+        
+        <div class="flex-1">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-aiesec-green text-white rounded-full flex items-center justify-center mr-3">
+              <span class="font-bold">2</span>
+            </div>
+            <h4 class="font-bold text-lg">Global Learning Environment</h4>
+          </div>
+          <p class="text-gray-600 pl-12">We provide diverse, cross-cultural experiences for personal and professional growth.</p>
+        </div>
+        
+        <div class="flex-1">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-aiesec-yellow text-white rounded-full flex items-center justify-center mr-3">
+              <span class="font-bold">3</span>
+            </div>
+            <h4 class="font-bold text-lg">Global Network</h4>
+          </div>
+          <p class="text-gray-600 pl-12">We connect young people to an international network spanning 126 countries and territories.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="section bg-white"  >
+  <div class="section-content">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Everything you need to know about AIESEC Exchanges.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="text-xl font-bold mb-3">How long are the exchange programs?</h3>
+        <p class="text-gray-600">Our exchange programs typically range from 6 weeks to 12 months, depending on the type of program and specific opportunity.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="text-xl font-bold mb-3">Do I need to speak the local language?</h3>
+        <p class="text-gray-600">English is the primary working language for most opportunities, but learning basic phrases in the local language is encouraged and enhances your experience.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="text-xl font-bold mb-3">What costs are involved?</h3>
+        <p class="text-gray-600">Costs vary by program and location. They typically include a program fee, flights, visa, insurance, and living expenses. Some programs offer stipends or accommodation.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="text-xl font-bold mb-3">Will I receive support during my exchange?</h3>
+        <p class="text-gray-600">Yes! You'll have support before, during, and after your exchange from both your home AIESEC committee and the host country AIESEC team.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="text-xl font-bold mb-3">Can I choose which country I go to?</h3>
+        <p class="text-gray-600">Yes, you can browse opportunities by country and apply for specific positions that interest you in your preferred locations.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="text-xl font-bold mb-3">Do I need specific qualifications?</h3>
+        <p class="text-gray-600">Requirements vary by program. Global Teacher and Global Volunteer generally require enthusiasm and relevant soft skills, while Global Talent may require specific academic backgrounds or technical skills.</p>
+      </div>
+    </div>
+    
+    <div class="text-center mt-12">
+      <p class="text-gray-600 mb-4">Still have questions? We're here to help!</p>
+      <a href="#footer" class="inline-block px-8 py-3 bg-aiesec-blue text-white font-semibold rounded-full hover:bg-blue-600 transition">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action with Enhanced Background Image -->
+<section class="section relative min-h-80">
+  <!-- Background image with higher opacity -->
+  <div class="absolute inset-0 z-0 pointer-events-none">
+    <img src="<%= vite_asset_path("images/aiesec-image-8.jpg") %>" alt="AIESEC Global Adventure" class="w-full h-full object-cover opacity-50">
+  </div>
+  
+  <!-- Gradient overlay -->
+  <div class="absolute inset-0 bg-gradient-to-r from-aiesec-blue to-aiesec-green opacity-70 z-10 pointer-events-none"></div>
+  
+  <!-- Content -->
+  <div class="section-content text-center relative z-20">
+    <div class="bg-black bg-opacity-30 py-10 px-6 rounded-xl inline-block">
+      <h2 class="text-4xl font-bold mb-6 text-white text-shadow">Start Your Global Adventure Today</h2>
+      <p class="text-xl mb-8 max-w-3xl mx-auto text-white text-shadow-sm">Join thousands of students who have transformed their lives through AIESEC exchanges. Your journey begins here.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#sign-up" class="px-8 py-3 bg-white bg-opacity-100 text-aiesec-blue font-semibold rounded-full hover:bg-gray-100 transition transform hover:scale-105 shadow-lg">Sign Up Now</a>
+        <a href="#opportunities" class="px-8 py-3 bg-aiesec-yellow bg-opacity-100 text-gray-800 font-semibold rounded-full hover:bg-yellow-400 transition transform hover:scale-105 shadow-lg">Explore Programs</a>
+      </div>
+    </div>
+  </div>
+</section>
