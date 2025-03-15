@@ -55,7 +55,7 @@
       <div>
         <div class="grid grid-cols-2 gap-6">
           <div class="bg-white bg-opacity-90 p-6 rounded-xl text-center shadow-sm">
-            <div class="text-5xl font-bold text-aiesec-blue mb-2">126</div>
+            <div class="text-5xl font-bold text-aiesec-blue mb-2">120+</div>
             <p class="text-gray-600">Countries & Territories</p>
           </div>
           
@@ -111,7 +111,7 @@
           </div>
           <div class="bg-white bg-opacity-90 p-4 rounded-lg">
             <h3 class="text-2xl font-bold text-center mb-2 text-aiesec-blue">Global Teacher</h3>
-            <p class="text-gray-700 text-center mb-4">Get the chance to teach in local and international communities, sharing knowledge and making a difference.</p>
+            <p class="text-gray-700 text-center mb-4">Get the chance to teach international communities, sharing knowledge and making a difference.</p>
             <div class="text-center">
               <a href="#" class="px-4 py-2 bg-aiesec-blue text-white rounded-full inline-block hover:bg-blue-600 transition">Learn more</a>
             </div>
@@ -138,7 +138,7 @@
           </div>
           <div class="bg-white bg-opacity-90 p-4 rounded-lg">
             <h3 class="text-2xl font-bold text-center mb-2 text-aiesec-green">Global Talent</h3>
-            <p class="text-gray-700 text-center mb-4">Showcase your skills in global and international communities through professional internships.</p>
+            <p class="text-gray-700 text-center mb-4">Showcase your skills in global and international organizations through professional internships.</p>
             <div class="text-center">
               <a href="#" class="px-4 py-2 bg-aiesec-green text-white rounded-full inline-block hover:bg-green-600 transition">Learn more</a>
             </div>
@@ -391,7 +391,7 @@
       </div>
       
       <div class="bg-white bg-opacity-90 p-8 rounded-xl shadow-md">
-        <h3 class="text-2xl font-bold mb-6">Join Our Community</h3>
+        <h3 class="text-2xl font-bold mb-6">Join Our Programs</h3>
         <form action="#" method="POST" class="space-y-6">
           <div>
             <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
@@ -420,6 +420,16 @@
               <option value="global_teacher">Global Teacher</option>
               <option value="global_talent">Global Talent</option>
               <option value="global_volunteer">Global Volunteer</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="referral_source" class="block text-gray-700 font-medium mb-2">How did you hear about AIESEC Exchanges?</label>
+            <select id="referral_source" name="referral_source" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-aiesec-blue">
+              <option value="">Please select</option>
+              <option value="whatsapp">WhatsApp</option>
+              <option value="word_of_mouth">Word of Mouth</option>
+              <option value="friend">A Friend</option>
             </select>
           </div>
           
@@ -466,39 +476,11 @@
       </div>
     </div>
     
-    <div class="mt-12 bg-white bg-opacity-90 p-8 rounded-xl shadow-md">
-      <h3 class="text-2xl font-bold mb-6 text-center">The AIESEC Way</h3>
-      <div class="flex flex-col md:flex-row gap-8">
-        <div class="flex-1">
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 bg-aiesec-blue text-white rounded-full flex items-center justify-center mr-3">
-              <span class="font-bold">1</span>
-            </div>
-            <h4 class="font-bold text-lg">Youth Leadership</h4>
-          </div>
-          <p class="text-gray-600 pl-12">We develop leadership through practical experiences in challenging environments.</p>
-        </div>
-        
-        <div class="flex-1">
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 bg-aiesec-green text-white rounded-full flex items-center justify-center mr-3">
-              <span class="font-bold">2</span>
-            </div>
-            <h4 class="font-bold text-lg">Global Learning Environment</h4>
-          </div>
-          <p class="text-gray-600 pl-12">We provide diverse, cross-cultural experiences for personal and professional growth.</p>
-        </div>
-        
-        <div class="flex-1">
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 bg-aiesec-yellow text-white rounded-full flex items-center justify-center mr-3">
-              <span class="font-bold">3</span>
-            </div>
-            <h4 class="font-bold text-lg">Global Network</h4>
-          </div>
-          <p class="text-gray-600 pl-12">We connect young people to an international network spanning 126 countries and territories.</p>
-        </div>
-      </div>
+    <!-- Link below the cards -->
+    <div class="text-center mt-12">
+      <a href="https://aiesec.org" target="_blank" rel="noopener noreferrer" class="inline-block px-8 py-3 bg-aiesec-blue text-white font-semibold rounded-full hover:bg-blue-600 transition shadow-md">
+        Learn More About AIESEC
+      </a>
     </div>
   </div>
 </section>

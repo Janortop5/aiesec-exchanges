@@ -6,6 +6,9 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.enable_reloading = false
 
+  # Add these lines to allow requests from your ngrok URLs
+  config.hosts << "4458-102-89-76-226.ngrok-free.app"
+
   # Eager load code on boot for better performance and memory savings (ignored by Rake tasks).
   config.eager_load = true
 

@@ -6,6 +6,8 @@ Rails.application.configure do
   # Make code changes take effect immediately without server restart.
   config.enable_reloading = true
 
+  # Add these lines to allow requests from your ngrok URLs
+  config.hosts << "4458-102-89-76-226.ngrok-free.app"
   # Do not eager load code on boot.
   config.eager_load = false
 
